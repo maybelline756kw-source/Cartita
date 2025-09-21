@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Carta</title>
+    <style>
+        body {
+            font-family: "Segoe UI", sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ffe6f0, #fff5f9); /* fondito suave */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .carta {
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+            max-width: 600px;
+            width: 90%;
+            text-align: center;
+            position: relative;
+        }
+
+        h1 {
+            color: #e75480; /* rosa */
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #444;
+            margin-bottom: 15px;
+        }
+
+        .firma {
+            font-style: italic;
+            margin-top: 30px;
+            text-align: right;
+            color: #e75480;
+        }
+
+        .boton {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 20px;
+            background-color: #e75480;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .boton:hover {
+            background-color: #c7436c;
+        }
+
+        /* decoraciones */
+        .corazon {
+            position: absolute;
+            font-size: 24px;
+            color: #ff80a8;
+            animation: flotar 4s infinite ease-in-out;
+        }
+
+        .corazon1 { top: 10px; left: 20px; }
+        .corazon2 { bottom: 10px; right: 30px; }
+
+        @keyframes flotar {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="carta">
+        <span class="corazon corazon1">❤</span>
+        <span class="corazon corazon2">❤</span>
+
+        <h1>💌 Querida Ab: 💌</h1>
+        <p>
+            Desde la primera vez que volvimos a hablar no he 
+            podido dejar de pensar en tí.
+            
+        </p>
+        <p>
+             Me he dado cuenta de que eres tan especial y tan 
+            importante para mí que es imposible 
+            dejar atrás estos sentimientos que siento por tí.
+        </p>
+        <p>
+            Es por eso que tengo algo que decirte...
+        </p>
+
+
+        <a href="carta2.html" class="boton">Ve a la siguiente carta 💕</a>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda Carta</title>
+    <style>
+        body {
+            font-family: "Segoe UI", sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ffd6d6, #fff0f5); /* rosadito pastel */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .carta {
+            background: #fff;
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+            max-width: 650px;
+            width: 90%;
+            text-align: left;
+            position: relative;
+            border: 3px solid #ff8fab;
+        }
+
+        h1 {
+            color: #d6336c;
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 2rem;
+        }
+
+        p {
+            color: #333;
+            margin-bottom: 18px;
+            font-size: 1.1rem;
+        }
+
+        .firma {
+            margin-top: 30px;
+            font-style: italic;
+            text-align: right;
+            color: #d6336c;
+        }
+
+        .boton {
+            display: block;
+            margin: 30px auto 0;
+            padding: 12px 25px;
+            background-color: #ff8fab;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            text-align: center;
+            width: fit-content;
+            transition: 0.3s;
+        }
+
+        .boton:hover {
+            background-color: #e05682;
+        }
+
+        /* decoración de fondo */
+        .flores {
+            position: absolute;
+            font-size: 28px;
+            opacity: 0.4;
+        }
+        .flor1 { top: 15px; left: 20px; }
+        .flor2 { bottom: 15px; right: 25px; }
+        .flor3 { top: 50%; left: -15px; transform: translateY(-50%); }
+        .flor4 { top: 50%; right: -15px; transform: translateY(-50%); }
+    </style>
+</head>
+<body>
+
+    <div class="carta">
+        <!-- decoraciones -->
+        <span class="flores flor1">🌸</span>
+        <span class="flores flor2">🌸</span>
+        <span class="flores flor3">🌺</span>
+        <span class="flores flor4">🌺</span>
+
+        <h1>🌷 Mi Ab🌷</h1>
+
+        <p>
+            Lo que siento por tí va más allá de la amistad, por eso quisiera ofrecerte mi corazón. 
+            ¿Lo aceptarías?
+ 
+        </p>
+
+        <p>
+           También quisiera preguntarte una cosita más:
+          ¿Te gustaría salir conmigo?
+        </p>
+
+        <div class="firma">
+            <p>At:</p>
+            <p>[Cata]</p>
+        </div>
+
+        <a href="carta.html" class="boton">Volver a la primera carta 💌</a>
+    </div>
+
+</body>
+</html>
